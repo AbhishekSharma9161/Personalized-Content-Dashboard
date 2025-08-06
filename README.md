@@ -18,15 +18,13 @@
 ## 🖼️ Screenshots
 
 ### Desktop View
+<img width="1901" height="888" alt="Image" src="https://github.com/user-attachments/assets/74a0a5f1-e3fa-4daa-8946-c23dd8e60ac6" />
 
-<img width="1901" height="888" alt="Image" src="https://github.com/user-attachments/assets/a2352fa8-bdc1-4661-b43d-b783847db25a" />
 
 
 
 ### Mobile View
-
-<img width="548" height="801" alt="Image" src="https://github.com/user-attachments/assets/062f7b62-a6ab-40da-ae4a-ad9056cc99d9" />
-
+<img width="548" height="801" alt="Image" src="https://github.com/user-attachments/assets/02560b14-92b5-4068-84ca-2efbab656cfd" />
 ---
 
 ## ✨ Features
