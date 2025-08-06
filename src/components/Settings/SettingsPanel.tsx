@@ -133,7 +133,7 @@ export const SettingsPanel: React.FC<SettingsPanelProps> = ({
                   Select Your Interests
                 </h3>
                 <p className="text-sm text-muted-foreground mb-4">
-                  Choose the categories you'd like to see in your feed. You can
+                  Choose the categories you&apos;d like to see in your feed. You can
                   select multiple categories.
                 </p>
               </div>

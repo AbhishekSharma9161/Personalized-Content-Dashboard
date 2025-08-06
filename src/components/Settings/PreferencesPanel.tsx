@@ -85,7 +85,7 @@ export const PreferencesPanel: React.FC = () => {
               <div>
                 <Label className="text-base font-medium">Content Categories</Label>
                 <p className="text-sm text-muted-foreground mb-3">
-                  Choose the topics you're interested in
+                  Choose the topics you&apos;re interested in
                 </p>
                 <div className="flex flex-wrap gap-2">
                   {availableCategories.map((category) => (

@@ -411,7 +411,7 @@ export const SimpleDashboard: React.FC<SimpleDashboardProps> = ({
             animate={{ opacity: 1, height: "auto" }}
             className="text-sm text-muted-foreground mt-2"
           >
-            Showing results for "{searchQuery}" ({filteredContent.length} items)
+            Showing results for &quot;{searchQuery}&quot; ({filteredContent.length} items)
           </motion.p>
         )}
       </motion.div>
