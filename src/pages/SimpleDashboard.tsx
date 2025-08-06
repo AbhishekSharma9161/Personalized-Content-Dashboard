@@ -465,8 +465,8 @@ export const SimpleDashboard: React.FC<SimpleDashboardProps> = ({
                       {(provided, snapshot) => (
                         <motion.div
                           ref={provided.innerRef}
-                          {...provided.draggableProps}
-                          {...provided.dragHandleProps}
+                          {...(provided.draggableProps as any)}
+                          {...(provided.dragHandleProps as any)}
                           layout
                           initial={{ opacity: 0, scale: 0.8, y: 20 }}
                           animate={{ opacity: 1, scale: 1, y: 0 }}
