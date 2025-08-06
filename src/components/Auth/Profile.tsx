@@ -21,7 +21,7 @@ export const Profile: React.FC<ProfileProps> = ({ onClose }) => {
     bio: user?.bio || "",
     preferences: {
       newsletter: user?.preferences.newsletter || false,
-      notifications: user?.preferences.notifications || true,
+      notifications: user?.preferences.notifications || false,
       language: user?.preferences.language || "en",
     },
   });
@@ -68,7 +68,11 @@ export const Profile: React.FC<ProfileProps> = ({ onClose }) => {
     setFormData({
       name: user.name,
       bio: user.bio || "",
-      preferences: user.preferences,
+      preferences: {
+        newsletter: user.preferences.newsletter,
+        notifications: user.preferences.notifications,
+        language: user.preferences.language,
+      },
     });
     setIsEditing(false);
   };
